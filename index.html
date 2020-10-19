@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity fitness by Eldad cohen</title>
+</head>
+<body>
+    <div id="backgroundimg">
+        <div id="header">
+            <button onclick="joinnow()" id= "top_joinnow" class="joinnow_training" >הצטרפו עכשיו </button>
+        </div>
+    <div>
+        <img id="logo" src="./img/לוגו  עיגול.png" alt="Error"><br>
+        <h1 class="h1_logo">NEW lifestyle, NEW you</h1>
+    </div>
+    <div class="div_abut">
+        <h2 class="h2_abut">קצת עלינו</h2>
+    <p class="abut">
+        <p class="abut">
+
+            .הוקמה לפני כשנה וחצי
+            <span class="infinity_red">INFINITY FITNESS</span><br>
+            .אנו דוגלים במקצועיות ומקפידים על יחס אישי לכל מתאמן לאורך כל הדרך
+        </p>
+    </p>
+        <h3 class="h3_abut">
+            ,אל תסמכו על המילה שלנו
+            תראו בעצמכם
+        </h3>
+        <img class="arrow" src="./img/חץ לבן.png" alt="arrow">
+    </div>
+
+
+    
+    <div class="slide hi-slide">
+        <div class="hi-prev "></div>
+          <div class="hi-next "></div>
+          <ul>
+              <li>
+              <img src="./img/cccc.png" alt="Img 1" /></li>
+              <li><img src="./img/mmm.png" alt="Img 2" /></li>
+              <li><img src="./img/gggggg.png" alt="Img 3" /></li>
+              <li><img src="./img/jjjjjj.png" alt="Img 4" /></li>
+              <li><img src="./img/akunh.png" alt="Img 5" /></li>
+              <li><img src="./img/IMG_6650.jpg" alt="Img 6" /></li>
+              <li><img src="./img/jbul1.png" alt="Img 7" /></li>
+          </ul>
+      </div>
+     
+      <button onclick="joinnow()" class="joinnow" >הצטרפו עכשיו</button>  
+
+      <div id="blackcontainer">
+        <div>
+            <h2 id="info_title" dir="rtl"> אנו מציעים חבילות של אימונים אישיים או אימונים זוגיים בהתאם<br> למטרות שאתם מציבים ! </h2>
+        </div>
+        <div class="all_info">
+
+        <div class="info_img">
+            <img  class= "only_img" id="info_image1" src="./img/24 אדום.png">
+            <h4 class="below_img_tile">ליווי אישי צמוד</h4>
+            <p class="below_title_info">,אנחנו מקפידים על הדרכה והסבר על כל דבר</p>
+            <p class="below_title_info">.אפילו הכי קטן. שלב אחר שלב בדרך למטרה</p>
+            <p class="below_title_info">! אצלנו אתם לא לבד</p>
+        </div> 
+
+        <div class="info_img">
+            <img class= "only_img" id="info_image2" src="./img/אימונים אדום.png">
+            <h4 class="below_img_tile">מערך אימונים ייחודי</h4>
+            <p class="below_title_info">.אופן האימון נבנה בהתאם למטרת המתאמן</p>
+            <p class="below_title_info">כל אימון יבחן אתכם מחדש</p>
+            <p class="below_title_info">.ויציב לכם מטרות ויעדים</p>
+        </div>  
+
+        <div class="info_img">
+            <img class= "only_img" id="info_image3" src="./img/המבורגר אדום.png">
+            <h4 class="below_img_tile">תזונה נכונה</h4>
+            <p class="below_title_info">תפריטי התזונה שלנו נבנים</p>
+            <p class="below_title_info">.בהתאמה אישית למטרת המתאמן </p>
+            <p class="below_title_info">.אצלנו לא חייב לוותר על פיצה ולחם לבן </p>
+        </div> 
+    </div>
+
+        <div class="all_info">
+
+        <div class="training_info">
+            <h3 class="h3_training_info">אימון זוגי</h3>
+            
+            <button data-modal-target=".modal" class="joinnow_training" >לפרטים נוספים</button>
+            <div class="modal" id="modal">
+                <div class="modal-header">
+                    <div class="title"></div>
+                    <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img class="popup_img"src="./img/אימון זוגי.png" alt="">
+                    <button onclick="joinnowpop_couple()" class="joinnow_popups">הרשמו עכשיו</button>
+                    
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="training_info">
+            <h3 class="h3_training_info">תוכנית אונליין</h3>
+
+            <button data-modal1-target=".modal1" class="joinnow_training1" >לפרטים נוספים</button>
+            <div class="modal1" id="modal1">
+                <div class="modal-header1">
+                    <div class="title"></div>
+                    <button data-close1-button class="close-button1">&times;</button>
+                </div>
+                <div class="modal-body1">
+                    <img class="popup_img"src="./img/תוכנית אונליין.png" alt="">
+                    <button onclick="joinnowpop_online()" class="joinnow_popups1">הרשמו עכשיו</button>
+                    
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="training_info">
+            <h3 class="h3_training_info">אימון אישי</h3>
+
+            <button data-modal2-target=".modal2" class="joinnow_training2" >לפרטים נוספים</button>
+            <div class="modal2" id="modal2">
+                <div class="modal-header2">
+                    <div class="title"></div>
+                    <button data-close2-button class="close-button2">&times;</button>
+                </div>
+                <div class="modal-body2">
+                    <img class="popup_img"src="./img/אימון אישי.png" alt="">
+                    <button onclick="joinnowpop_personal()" class="joinnow_popups2">הרשמו עכשיו</button>
+                    
+                </div>
+            </div>
+            
+        
+
+        
+    </div>
+    </div>
+    </div>
+    <div id="contact_social">
+       
+        <div class="contact_flex">
+            
+            <div class="semi_title_contact_and_info">
+                <h3 class="semi_title_contact">עקבו אחרינו</h3>
+                <div> <!--follow us image div-->
+                    <a href="https://www.instagram.com/infinity____fitness/?hl=en"><img class="only_img_contact" src="./img/אינסטגרם אדום.png">
+                    </a>
+                    <a href="https://www.facebook.com/Infinity-Fitness-%D7%A1%D7%98%D7%95%D7%93%D7%99%D7%95-%D7%9C%D7%90%D7%99%D7%9E%D7%95%D7%A0%D7%99%D7%9D-%D7%90%D7%99%D7%A9%D7%99%D7%99%D7%9D-2189267681318332"><img class="only_img_contact" src="./img/פייסבוק אדום (1).png">
+                    </a>
+                    <a href="https://wa.me/972539234339?text=אלדד אתר בדיקה"><img class="only_img_contact" src="./img/ווצאפ אדום.png">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="semi_title_contact_and_info">
+                <h3 class="semi_title_contact">פרטי התקשרות</h3>
+                <div>
+                    <a href="tel:053-9234339"><img id="only_phone" class="only_img_contact" src="./img/טלפון אדום.png" alt="Redphone.err">
+                    </a>
+                    <p class="contact_info">משרד :08-6493235</p>
+                    <p class="contact_info">נייד :053-9234339</p>
+                </div>
+            </div>
+            
+            <div class="semi_title_contact_and_info">
+                <h3 class="semi_title_contact">כתובת</h3>
+                <div>
+                    <a href="https://ul.waze.com/ul?ll=31.21880225%2C34.80285287&navigate=yes&zoom=17"><img id="only_waze" class="only_img_contact" src="./img/וויז אדום.png" alt="Redphone.err">
+                    </a>
+                    <p class="contact_info">תוצרת הארץ 3,באר שבע</p>
+                    <p class="contact_info">(סמוך למועדון הפורום)</p>
+                </div>
+            </div>
+                
+                
+            </div>
+        </div>
+        
+        <footer id="credits">
+            
+            Proudly developed by Oded Elmakayes front-end solutions
+        </footer>
+    </div> 
+  <script src="C:\Users\odedp\OneDrive\שולחן העבודה\Infitite fitness project\Infinite fitness\fit.js"></script>
+</body>
+</html>
