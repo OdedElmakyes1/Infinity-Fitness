@@ -290,10 +290,10 @@ body{
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  body{
-    max-width: 480px;
-    background-image: none;
-  }
+  html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
   #backgroundimg{
     max-width: 480px;
     
