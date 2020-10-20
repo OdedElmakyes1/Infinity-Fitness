@@ -288,3 +288,24 @@ body{
 
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  body{
+    max-width: 480px;
+    background-image: none;
+  }
+  #backgroundimg{
+    max-width: 480px;
+    
+  }
+  #top_joinnow{
+    position: relative;
+    margin-top: 19px;
+    margin-right: 90px;
+    width: 170px;
+  }
+  #header{
+    height: 100px;
+    width: 170px;
+  }
+}
