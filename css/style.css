@@ -357,6 +357,30 @@ body{
   height: 40px;
 }
 
+.info_img{
+  height: auto;
+  position: relative;
+}
+
+.training_info{
+  margin-top: 100px;
+  
+}
+
+.joinnow_training, .joinnow_training1, .joinnow_training2{
+width: 115px;
+font-size: 16px;
+}
+
+.h3_training_info{
+  font-size: 20.7px;
+  text-decoration: underline;
+}
+
+
+
+
+
 
 }
 
