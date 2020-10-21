@@ -80,6 +80,8 @@ body{
 .slider_img{
   width: 300px;
   height: 300px;
+  border-radius: 3%;
+
 }
 
 
@@ -328,6 +330,7 @@ body{
   margin-left: 205px;
    width: 240px;
     height: 270px;
+    border-radius: 20%;
 }
 
 .swiper-container{
