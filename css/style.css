@@ -337,7 +337,29 @@ body{
   width: 350px;
 }
 
+#info_title{
+  font-size: 20px;
 }
+
+.below_img_tile{
+  font-size: 15px;
+}
+.all_info{
+  margin: 0px;
+}
+
+.below_title_info{
+  font-size: 10px;
+}
+
+.only_img{
+  width: 40px;
+  height: 40px;
+}
+
+
+}
+
 
 
 
