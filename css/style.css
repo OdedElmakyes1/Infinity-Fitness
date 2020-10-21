@@ -376,10 +376,39 @@ font-size: 16px;
   font-size: 20.7px;
   text-decoration: underline;
 }
+.contact_flex{
+  margin: 0px;
+}
+
+.semi_title_contact{
+  font-size: 16px;
+  margin-top: 25px;
+  
+}
+.only_img_contact{
+  margin: 0px;
+  width: 40px;
+}
+.contact_info{
+  font-size: 13px;
+  width: 130px;
+}
+#instegram_img{
+display: block;
+margin-left: 23px;
+margin-bottom: 25px;
+}
 
 
 
+#follow_us{
+margin-left: 15px;
+margin-top: 7px;
+}
 
+#call_info{
+  margin-left: 15px;
+}
 
 
 }
