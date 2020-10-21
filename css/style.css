@@ -200,12 +200,21 @@ body{
   margin-top: 40px;
 }
 .semi_title_contact_and_info{
-  flex: 1;
-  margin-top: 7px;
+  margin-left: 33.3%;
+}
+#follow_us{
+  margin-left: 65px;
+}
+#Waze_contact{
+  margin-left: 210px;
+}
+#call_info{
+  margin-left: 210px;
 }
 
 .semi_title_contact{
-  font-size: 25px
+  font-size: 25px;
+  width: 200px;
 }
 
 .only_img_contact{
@@ -229,6 +238,7 @@ body{
   color: white;
   font-weight: bold;
   margin: 0px;
+  width: 200px;
   
 }
 
