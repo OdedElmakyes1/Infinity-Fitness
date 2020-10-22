@@ -200,21 +200,12 @@ body{
   margin-top: 40px;
 }
 .semi_title_contact_and_info{
-  margin-left: 33.3%;
-}
-#follow_us{
-  margin-left: 65px;
-}
-#Waze_contact{
-  margin-left: 210px;
-}
-#call_info{
-  margin-left: 210px;
+  flex: 1;
+  margin-top: 7px;
 }
 
 .semi_title_contact{
-  font-size: 25px;
-  width: 200px;
+  font-size: 25px
 }
 
 .only_img_contact{
@@ -238,7 +229,6 @@ body{
   color: white;
   font-weight: bold;
   margin: 0px;
-  width: 200px;
   
 }
 
@@ -418,11 +408,33 @@ margin-top: 7px;
 
 #call_info{
   margin-left: 15px;
+}} 
+/* End of most of smartphone query*/
+
+/* Desktop query fix */
+@media (min-width: 1281px) {
+  
+  #contact_social{
+    display: flex;
+    text-align: center;
+  }
+  #follow_us{
+    flex: 1;
+  }
+  #call_info{
+    flex: 1;
+  }
+
+  #adress_info{
+    flex: 1;
+  }
+  
+  .contact_flex{
+    margin: 0px;
+    flex: 1;
+  }
+
 }
-
-
-}
-
 
 
 
