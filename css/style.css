@@ -309,6 +309,7 @@ body{
     background-image: url(./phone.jpeg);
     background-size: contain;
     background-attachment: fixed;
+    background-repeat: round;
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
