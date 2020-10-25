@@ -304,7 +304,7 @@ body{
     width:100%;
     overflow-x:hidden;
     background-size: 390px;
-    background-attachment:fixed;
+    /* background-attachment:fixed; */
     background-image: url(./phone.jpeg);
     }
     #backgroundimg{
