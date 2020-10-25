@@ -362,9 +362,6 @@ body{
     height: 270px;
 }
 .modal, .modal1, .modal2{
-  /* position: fixed;
-  top: 40%; */
-  left: 50%;
   margin-left: 0px;
   transform: translate(-50%, -50%) scale(0);
   transition: 2000ms ease-in-out;
