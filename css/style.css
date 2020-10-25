@@ -8,7 +8,7 @@ body{
   
 }
 #backgroundimg{
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   background-size: 100%;
   width: 100%;
   height: 100%;
@@ -210,7 +210,7 @@ body{
 }
 
 .only_img_contact{
-  height: 50px;
+  height: 70.91px;
   margin-left: 10px;
   margin-right: 10px;
   
@@ -306,6 +306,9 @@ body{
     background-size: cover;
     background-attachment:none;
     background-image: url(./phone.jpeg);
+    }
+    #backgroundimg{
+      background-color: rgba(0, 0, 0, 0.6);
     }
     #blackcontainer{
       height: 695px;
