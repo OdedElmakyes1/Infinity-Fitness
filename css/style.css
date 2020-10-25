@@ -304,7 +304,7 @@ body{
     width:100%;
     overflow-x:hidden;
     background-size: cover;
-    background-attachment:none;
+    background-attachment:scroll;
     background-image: url(./phone.jpeg);
     }
     #backgroundimg{
