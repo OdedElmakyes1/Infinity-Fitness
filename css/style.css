@@ -364,11 +364,13 @@ body{
 .modal, .modal1, .modal2{
   /* position: fixed;
   top: 40%; */
-  left: 0%;
-  margin-left: 50%;
+  left: 50%;
+  margin-left: 0px;
   transform: translate(-50%, -50%) scale(0);
   transition: 2000ms ease-in-out;
-  z-index: 10;}
+  z-index: 10;
+
+}
   
 
 .popup_img{
@@ -377,7 +379,7 @@ body{
 }
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   width: 150px;
-  position: relative;
+  position: absolute;
   margin: 0px;
   margin-top: 28px;
 }
@@ -387,7 +389,7 @@ body{
   border: none;
   outline: none;
   background: none;
-  position: relative;
+  position: absolute;
   font-size: 90px;
   margin: 0px;
   top: 95px;
