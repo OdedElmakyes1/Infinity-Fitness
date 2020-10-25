@@ -498,7 +498,7 @@ border: solid #ffffff 2px;
   padding-left: 10px;
   padding-bottom: 5px;
 }
-a:active, a:visited{
+a:link, a:visited{
   color: black;
 }
 
