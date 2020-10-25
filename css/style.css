@@ -308,9 +308,22 @@ body{
     #blackcontainer{
       height: 695px;
     }
+    #header{
+      height: 150px;
+    width: 100px;}
     
   #top_joinnow{
-    display: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 30px;
+    background: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 16%;
+    border: solid white 2px;
   }
 
  #logo{
@@ -403,8 +416,8 @@ border: solid #ffffff 2px;
   font-size: 19px;
 }
 #contact_social{
-  margin-top: 700px;
-  height: 765px;
+  margin-top: 625px;
+  height: 605px;
 }
 .contact_info{
   font-size: 15px;
@@ -412,12 +425,19 @@ border: solid #ffffff 2px;
 .contact_flex{
   background-color: black;
 }
+#only_waze{
+  margin: 0px;
+  margin-top: 20px;
+}
+/* .semi_title_contact_and_info{
+  max-height: 150px;
+} */
 #follow_us_img{
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 10px;
 }
 .only_img_contact{
-  margin-top: 23%;
+  margin-top: 10%;
   width: 60px;
   height: 60px;
 }
@@ -429,6 +449,9 @@ border: solid #ffffff 2px;
 .semi_title_contact{
   margin: 2%;
   font-size: 20px;
+}
+.semi_title_contact_and_info{
+  margin: 0px;
 }
 .contact_flex{
   margin: 0;
@@ -448,7 +471,11 @@ border: solid #ffffff 2px;
   display: block;
   padding-top: 35px;
   background-color: black;
-  padding-left: 0px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+a:active, a:visited{
+  color: black;
 }
 
 }
