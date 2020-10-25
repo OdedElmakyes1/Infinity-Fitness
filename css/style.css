@@ -382,6 +382,7 @@ body{
   position: absolute;
   margin: 0px;
   margin-top: 28px;
+  display: none;
 }
 .close-button, .close-button1, .close-button2{
   color: #b10609;
@@ -395,6 +396,7 @@ body{
   top: 95px;
   bottom: 0px;
   margin-left: 304px;
+  display: none;
 }
 .popup_img2{
   display: inline-block;
