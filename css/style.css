@@ -310,7 +310,6 @@ body{
     background-size: contain;
     background-attachment: fixed;
     background-repeat: round;
-    -webkit-transform: translateZ(0);
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
