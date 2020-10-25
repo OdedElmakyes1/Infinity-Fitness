@@ -269,7 +269,9 @@ body{
   height: 750px;
   
 }
-
+.popup_img2{
+  display: none;
+}
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   width: 200px;
    height: 50px;
@@ -289,7 +291,7 @@ body{
   font-size: 12px;
   font-family: 'Heebo', sans-serif;
   color: white;
-  text-align: left;
+  text-align: center;
   padding-left: 15px;
   font-weight: bold;
 
@@ -351,13 +353,17 @@ body{
 }
 
 .popup_img{
-  width: 360px;
-  height: 360px;
-  position: relative;
+  display: none;
+  
 }
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   position: relative;
   width: 115px;
+}
+.popup_img2{
+  display: inline;
+  width: 350px;
+  height: 700px;
 }
 .swiper-container{
   width: 350px;
