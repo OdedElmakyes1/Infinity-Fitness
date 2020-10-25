@@ -392,14 +392,13 @@ body{
   border: none;
   outline: none;
   background: none;
-  position: absolute;
   font-size: 90px;
   margin-left: 0px;
   top: -4%;
   height: fit-content;
   width: 50px;
   position: absolute;
-  left: 85%;
+  left: 36vh;
 }
 .popup_img2{
   display: inline-block;
