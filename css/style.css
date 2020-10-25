@@ -403,7 +403,7 @@ body{
   right: 76px;
   top: -4%;
   height: fit-content;
-  width: fit-content;
+  width: 50px;
   position: absolute;
   left: 85%;
 }
