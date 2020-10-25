@@ -307,7 +307,7 @@ body{
     position: sticky;
     overflow-x:hidden;
     background-image: url(./phone.jpeg);
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     }
     #backgroundimg{
