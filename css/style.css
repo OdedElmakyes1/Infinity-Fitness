@@ -391,8 +391,8 @@ body{
   background: none;
   font-size: 90px;
   margin-left: 0px;
-  top: -60%;
-  height: -webkit-fill-available;
+  top: 0%;
+  height: unset;
   width: 50px;
   position: absolute;
   left: 36vh;
