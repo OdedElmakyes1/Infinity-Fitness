@@ -302,9 +302,11 @@ body{
   
   html, body{
     width:100%;
+    position: sticky;
     overflow-x:hidden;
     background-image: url(./phone.jpeg);
-    background-attachment: fixed;
+    background-size: cover;
+    /* background-attachment: fixed; */
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
