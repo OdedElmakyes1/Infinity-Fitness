@@ -382,7 +382,9 @@ body{
   position: absolute;
   margin: 0px;
   margin-top: 28px;
-  display: none;
+  top: 83%;
+  right: 29%;
+  
 }
 .close-button, .close-button1, .close-button2{
   color: #b10609;
@@ -396,7 +398,14 @@ body{
   top: 95px;
   bottom: 0px;
   margin-left: 304px;
-  display: none;
+  margin-left: 0px;
+  left: 0px;
+  right: 76px;
+  top: -4%;
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 85%;
 }
 .popup_img2{
   display: inline-block;
