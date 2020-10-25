@@ -303,12 +303,12 @@ body{
   html, body{
     width:100%;
     overflow-x:hidden;
-    background-size: cover;
-    
     background-image: url(./phone.jpeg);
+    background-attachment: fixed;
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
+      
     }
     #blackcontainer{
       height: 695px;
