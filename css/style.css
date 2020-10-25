@@ -303,8 +303,8 @@ body{
   html, body{
     width:100%;
     overflow-x:hidden;
-    background-size: 600px;
-    background-attachment: scroll;
+    background-size: cover;
+    
     background-image: url(./phone.jpeg);
     }
     #backgroundimg{
