@@ -310,6 +310,7 @@ body{
     background-size: contain;
     background-attachment: fixed;
     background-repeat: round;
+    -webkit-transform: translateZ(0);
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
@@ -390,12 +391,16 @@ body{
   outline: none;
   background: none;
   font-size: 50px;
-  margin-left: 0px;
+  margin-left: 301px;
   top: 0%;
-  height: fit-content;
-  width: 50px;
-  position: absolute;
-  left: 36vh;
+  /* height: fit-content; */
+  /* width: 50px; */
+  position: fixed;
+  /* left: 36vh; */
+}
+.modal_body{
+   width: 350px;
+    height: 600px;
 }
 .popup_img2{
   display: inline-block;
