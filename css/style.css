@@ -357,13 +357,30 @@ body{
   
 }
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
+  width: 150px;
   position: relative;
-  width: 115px;
+  margin: 0px;
+  margin-top: 10px;
+}
+.close-button, .close-button1, .close-button2{
+  color: #b10609;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  position: relative;
+  font-size: 90px;
+  margin: 0px;
+  top: 180px;
+  bottom: 0px;
+  margin-left: 292px;
 }
 .popup_img2{
-  display: inline;
+  display: inline-block;
   width: 350px;
-  height: 700px;
+  height: 790px;
+  margin: 0px;  
+  margin-top: 100px;
 }
 .swiper-container{
   width: 350px;
@@ -417,6 +434,7 @@ font-size: 19px;
 border-radius: 5%;
 border: solid #ffffff 2px;
 }
+
 
 .h3_training_info{
   font-size: 19px;
