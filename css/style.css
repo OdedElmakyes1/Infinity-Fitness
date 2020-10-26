@@ -390,7 +390,7 @@ body{
     margin-left: 116px;
   position: fixed;
 }
-}
+
 .close-button, .close-button1, .close-button2{
   color: white;
   cursor: pointer;
@@ -536,12 +536,6 @@ a:link, a:visited{
   color: black;
 }
 
-
-
-
-
-
-
 .modal-contents {
   /* height: 300px;
   width: 500px; */
@@ -571,16 +565,19 @@ a:link, a:visited{
   color: #666;
 }
 
-.bg-modal {
+.bg-modal{
   background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   height: 120%;
-  position: absolute;
   top: 0;
-  display: none;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  display: none;
+}
+.model{
+ display: none;
+}
+
 }
 
 
@@ -588,13 +585,15 @@ a:link, a:visited{
 
 
 
-
-}
 /* End of most of smartphone query*/
 
 /* Desktop query fix */
 @media (min-width: 1281px) {
-  
+  .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
+    display: none;
+  }
+
+
   #contact_social{
     display: flex;
     text-align: center;
