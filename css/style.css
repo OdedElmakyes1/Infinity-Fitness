@@ -371,7 +371,7 @@ and (-webkit-device-pixel-ratio : 3) {
   position: relative;
   font-size: 90px;
   margin: 0;
-  top: 0;
+  
   left: 38%;
 }
 .popup_img2{
