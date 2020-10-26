@@ -382,11 +382,11 @@ body{
 }
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   width: 150px;
-  position: absolute;
+  position: fixed;
   right: 103px;
-  top: -50px;
   bottom: 9px;
-  margin-top: 144%;
+  margin-bottom: 205px;
+}
 }
 .close-button, .close-button1, .close-button2{
   color: white;
