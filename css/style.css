@@ -378,10 +378,15 @@ body{
   bottom: 0px;
   margin-left: 304px;
 }
+.modal, .modal1, .modal2{
+  margin-left: 2%;
+  margin-right: 0;
+  position: relative;
+}
 .popup_img2{
   display: block;
-  width: 90%;
-  height: auto;
+  width: 350px;
+  height:auto;
   margin: 0px;  
   margin-top: 100px;
 }
