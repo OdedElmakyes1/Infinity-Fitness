@@ -371,7 +371,7 @@ body{
   font-size: 90px;
   margin: 0;
   top: 0;
-  float: right;
+  left: 38%;
 }
 .popup_img2{
   display: inline-block;
