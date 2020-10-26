@@ -383,10 +383,11 @@ body{
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   width: 150px;
   top: 0px;
-  right: 0px;
-  left: 0px;
-  margin-bottom: 0px;
-margin-top: 545px;
+    right: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    margin-top: 545px;
+    margin-left: 130px;
   position: fixed;
 }
 }
