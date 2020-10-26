@@ -369,7 +369,8 @@ body{
   color: #b10609;
   position: relative;
   font-size: 90px;
-  margin: 0px 0px 0px 82%;
+  margin: 0;
+  float: right;
 }
 .popup_img2{
   display: inline-block;
