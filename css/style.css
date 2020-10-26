@@ -370,6 +370,7 @@ body{
   position: relative;
   font-size: 90px;
   margin: 0;
+  top: 0;
   float: right;
 }
 .popup_img2{
