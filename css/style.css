@@ -310,6 +310,13 @@ body{
     background-size: contain;
     background-attachment: fixed;
     background-repeat: round;
+    z-index: 10;
+    -webkit-overflow-scrolling: touch;
+
+
+
+
+    perspective: 1000 ;  
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
@@ -365,7 +372,6 @@ body{
   margin-left: 0px;
   transform: translate(-50%, -50%) scale(0);
   transition: 2000ms ease-in-out;
-  z-index: 10;
 
 }
   
@@ -378,7 +384,7 @@ body{
   width: 150px;
   position: absolute;
   right: 103px;
-  top: 7px;
+  top: -15px;
   bottom: 9px;
   margin-top: 144%;
 }
@@ -552,7 +558,7 @@ a:link, a:visited{
 .close {
   position: absolute;
   top: 0;
-  right: 23px;
+  right: 32px;
   font-size: 65px;
   color: white;
   transform: rotate(45deg);
