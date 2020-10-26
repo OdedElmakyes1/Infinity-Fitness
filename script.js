@@ -66,61 +66,41 @@ function closeModal(modal1){
 
 /////////////////////////////////////////////////PERSONAL TRAINING///////////////////////////////////////
 
-// const openModalButtons2 = document.querySelectorAll('[data-modal2-target]')
-// const closeModalButtons2 = document.querySelectorAll('[data-close2-button]')
+const openModalButtons2 = document.querySelectorAll('[data-modal2-target]')
+const closeModalButtons2 = document.querySelectorAll('[data-close2-button]')
 
-// openModalButtons2.forEach(button=>{
-//     button.addEventListener('click', () => {
-//         const modal2= document.querySelector(button.dataset.modal2Target)
-//         openModal(modal2)
-//     })
-// })
-
-// closeModalButtons2.forEach(button => {
-//     button.addEventListener('click', () => {
-//         const modal2= button.closest('.modal2')
-//         closeModal(modal2)
-//     })
-// })
-
-
-// function openModal(modal2){
-//     if (modal2 == null) return
-//     modal2.classList.add('active')
-// }
-
-// function closeModal(modal2){
-//     if (modal2 == null) return
-//     modal2.classList.remove('active')
-// }
-
-
-
-
-const popUp = document.querySelector('.model')
-const button = document.querySelector('#botun')
-
-button.addEventListener('click', () =>{
-   
-    popUp.style.display = "block";
-})
-const closed = document.querySelector('.close')
-closed.addEventListener('click', () => {
-    popUp.style.display = "none";
+openModalButtons2.forEach(button=>{
+    button.addEventListener('click', () => {
+        const modal2= document.querySelector(button.dataset.modal2Target)
+        openModal(modal2)
+    })
 })
 
-// function pop(event){
-//     debugger
-//        if(!event){
-//            return;
-//        }
-//        else if(popUp.style.display === "none"){
+closeModalButtons2.forEach(button => {
+    button.addEventListener('click', () => {
+        const modal2= button.closest('.modal2')
+        closeModal(modal2)
+    })
+})
 
-//            popUp.style.display = "block";
-//         }else{
-//             popUp.style.display = "none";
 
-//        }
-// }
+function openModal(modal2){
+    if (modal2 == null) return
+    modal2.classList.add('active')
+}
+
+function closeModal(modal2){
+    if (modal2 == null) return
+    modal2.classList.remove('active')
+}
+
+
+
+
+
+
+
+
+
 
 
