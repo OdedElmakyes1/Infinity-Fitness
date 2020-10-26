@@ -377,11 +377,10 @@ body{
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
   width: 150px;
   position: absolute;
-  margin: 0px;
-  margin-top: 28px;
-  top: 83%;
-  right: 29%;
-  
+  right: 103px;
+  top: 7px;
+  bottom: 9px;
+  margin-top: 144%;
 }
 .close-button, .close-button1, .close-button2{
   color: white;
@@ -553,9 +552,9 @@ a:link, a:visited{
 .close {
   position: absolute;
   top: 0;
-  right: 10px;
-  font-size: 42px;
-  color: #333;
+  right: 23px;
+  font-size: 65px;
+  color: white;
   transform: rotate(45deg);
   cursor: pointer;
 }
