@@ -299,7 +299,7 @@ body{
 
 
 @media screen and (min-width: 320px) and (max-width: 480px)
-and (-webkit-device-pixel-ratio : 3) {
+ {
   
   html, body{
     width:100%;
@@ -368,7 +368,6 @@ and (-webkit-device-pixel-ratio : 3) {
 }
 .close-button, .close-button1, .close-button2{
   color: #b10609;
-  position: relative;
   font-size: 90px;
   margin: 0;
   top: 0%;
