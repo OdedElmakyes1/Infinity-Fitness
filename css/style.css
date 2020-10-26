@@ -361,14 +361,16 @@ body{
   
 }
 .joinnow_popups, .joinnow_popups1, .joinnow_popups2{
-  width: 150px;
-  position: relative;
-  margin: 0px;
-  margin-top: 10px;
+  width: 120px;
+    position: relative;
+    margin: 0px;
+    margin-top: 28px;
+    font-size: 15px;
+    height: 35px;
 }
 .close-button, .close-button1, .close-button2{
-  color: #b10609;
-  font-size: 90px;
+  color: #ffffff;
+  font-size: 80px;
   margin: 0;
   top: 0%;
   top: 100px;
