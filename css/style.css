@@ -244,7 +244,7 @@ body{
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0);
-  transition: 2000ms ease-in-out;
+  transition: 1000ms ease-in-out;
   z-index: 10;}
   
 .modal.active, .modal1.active, .modal2.active{
@@ -370,11 +370,12 @@ body{
 }
 .close-button, .close-button1, .close-button2{
   color: #ffffff;
-  font-size: 80px;
+  font-size: 65px;
   margin: 0;
   top: 0%;
-  top: 100px;
+  top: 80px;
   left: 43%;
+
 }
 .popup_img2{
   display: inline-block;
@@ -549,11 +550,12 @@ a:link, a:visited{
 }
 .close-button, .close-button1, .close-button2{
   color: #ffffff;
-  font-size: 80px;
+  font-size: 65px;
   margin: 0;
   top: 0%;
-  top: 100px;
+  top: 80px;
   left: 43%;
+
 }
 .popup_img2{
   display: inline-block;
