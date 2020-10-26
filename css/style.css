@@ -379,9 +379,9 @@ body{
   margin-left: 304px;
 }
 .popup_img2{
-  display: inline-block;
-  width: 350px;
-  height: 790px;
+  display: block;
+  width: 100%;
+  height: auto;
   margin: 0px;  
   margin-top: 100px;
 }
