@@ -99,8 +99,12 @@ function closeModal(modal2){
 
 
 
+function close1(){
+    document.querySelector('.bg-modal').style.display = "none";
+}
 
-
-
+function pop(){   // window pop and give error.
+    document.querySelector('.bg-modal').style.display = "block";
+}
 
 
