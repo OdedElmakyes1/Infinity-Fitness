@@ -136,7 +136,7 @@ body{
 
 .only_img{
   
-  height: 70.91px;
+  height: 60.91px;
 }
 
 .below_img_tile{
@@ -206,19 +206,25 @@ body{
 }
 
 .semi_title_contact{
-  font-size: 25px
+  margin-top: 1px;
+  font-size: 25px;
+  
 }
 
 .only_img_contact{
-  height: 70.91px;
+  height: 55.91px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 2%;
   
 }
 .follow_us_sub_img{
   height: 50px;
   margin-left: 10px;
   margin-right: 10px;
+}
+#follow_us_img{
+  margin-bottom: 10px;
 }
 
 #only_phone{
@@ -253,7 +259,7 @@ body{
 }
 
 .close-button, .close-button1, .close-button2{
-  color: #b10609;
+  color: #ffffff;
   cursor: pointer;
   border: none;
   outline: none;
@@ -438,9 +444,6 @@ border: solid #ffffff 2px;
 }
 
 
-.h3_training_info{
-  font-size: 19px;
-}
 #contact_social{
   margin-top: 625px;
   height: 605px;
@@ -484,7 +487,7 @@ border: solid #ffffff 2px;
   display: block;
 }
 .training_info{
-  margin-top: 85px;
+  margin-top: 65px;
 }
 
 #all_traning{
@@ -492,6 +495,7 @@ border: solid #ffffff 2px;
 }
 .h3_training_info{
   font-size: 30px;
+  margin-bottom: 35px;
 }
 #credits{
   display: block;
