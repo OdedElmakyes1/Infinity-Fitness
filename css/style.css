@@ -475,7 +475,7 @@ ul{
   font-size: 60px;
   margin: 0;
   top: 0%;
-  top: 65px;
+  top: 90px;
   left: 44%;
 
 }
@@ -484,6 +484,7 @@ ul{
   width: 350px;
   height: auto;
   margin: 0px;  
+  margin-top: 10%;
   
 }
 
@@ -657,7 +658,7 @@ a:link, a:visited{
   font-size: 60px;
   margin: 0;
   top: 0%;
-  top: 65px;
+  top: 90px;
   left: 44%;
 
 }
@@ -666,7 +667,7 @@ a:link, a:visited{
   width: 350px;
   height: auto;
   margin: 0px;  
-  
+  margin-top: 10%;
 }
 
 }
