@@ -638,7 +638,7 @@ a:link, a:visited{
       }
       
 .phonebackgroundimg{
-  background-image: url(./phone.jpeg);
+  background-image: none;
   overflow:hidden;
   -webkit-overflow-scrolling:touch; 
   background-size: cover;
