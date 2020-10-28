@@ -866,7 +866,7 @@ color: black;
 /* Galaxy Note 8, 9  */
 @media only screen
   and (min-device-width: 360px)
-  and (max-device-width: 740px)
+  and (max-device-height: 740px)
   and (-webkit-device-pixel-ratio : 2)
   {
 
