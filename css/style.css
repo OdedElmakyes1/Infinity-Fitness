@@ -629,7 +629,7 @@ a:link, a:visited{
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px)
-  and (-webkit-device-pixel-ratio : 3)and (-webkit-overflow-scrolling:touch){
+  and (-webkit-device-pixel-ratio : 3){
   
     html, body{
       width:100%;
@@ -638,11 +638,10 @@ a:link, a:visited{
       }
       
 .phonebackgroundimg{
-  background-image: none;
-  overflow:hidden;
-  -webkit-overflow-scrolling:touch; 
-  background-size: cover;
-  background-attachment: fixed;
+  background-image:url(./phone.jpeg);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   }
 
 .popup_img{
