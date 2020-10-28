@@ -636,6 +636,14 @@ a:link, a:visited{
       overflow-x:hidden;
       background-image: none;
       }
+      
+.phonebackgroundimg{
+  background-image: url(./phone.jpeg);
+  overflow:hidden;
+  -webkit-overflow-scrolling:touch; 
+  background-size: cover;
+  background-attachment: fixed;
+  }
 
 .popup_img{
   display: none;
