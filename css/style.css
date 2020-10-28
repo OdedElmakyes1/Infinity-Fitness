@@ -412,9 +412,12 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
     }
    
   .phonebackgroundimg{
-    background-image:url(./iphone.png);
-    background-repeat: repeat;
-    background-size: 480px 1000px;}
+    width:100%;
+    overflow-x:hidden;
+    background-size: cover;
+    background-attachment:none;
+    background-attachment:fixed;
+    background-image: url(./phone.jpeg)}
 
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
@@ -643,10 +646,12 @@ a:link, a:visited{
       }
       
 .phonebackgroundimg{
-  background-image:url(./iphone.png);
-  background-repeat: repeat;
-  background-size: 480px 1000px;
-  
+  width:100%;
+  overflow-x:hidden;
+  background-size: cover;
+  background-attachment:none;
+  background-attachment:fixed;
+  background-image: url(./phone.jpeg)
   }
 
   #backgroundimg{
@@ -875,9 +880,12 @@ color: black;
     }
     
 .phonebackgroundimg{
-background-image:url(./iphone.png);
-background-repeat: repeat;
-background-size: 480px 1000px;
+  width:100%;
+  overflow-x:hidden;
+  background-size: cover;
+  background-attachment:none;
+  background-attachment:fixed;
+  background-image: url(./phone.jpeg)
 }
 #backgroundimg{
   background-color: rgba(0, 0, 0, 0.6);
@@ -1105,9 +1113,12 @@ color: black;
       }
       
 .phonebackgroundimg{
-  background-image:url(./iphone.png);
-  background-repeat: repeat;
-  background-size: 480px 1000px;
+  width:100%;
+  overflow-x:hidden;
+  background-size: cover;
+  background-attachment:none;
+  background-attachment:fixed;
+  background-image: url(./phone.jpeg)
   }
   #backgroundimg{
     background-color: rgba(0, 0, 0, 0.6);
