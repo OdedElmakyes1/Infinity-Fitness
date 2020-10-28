@@ -1,13 +1,11 @@
 body{
   text-align: center;
   margin: auto;
-  overflow-x: hidden;
-  
-}
-.phonebackgroundimg{
   background-image: url(./IMG_5969.jpg);
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
+  
 }
 #backgroundimg{
   background-color: rgba(0, 0, 0, 0.7);
@@ -380,29 +378,17 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
 
 }
 
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 
-@media screen and (min-width: 375px) and (max-width: 667px)
+@media screen and (min-width: 320px) and (max-width: 480px)
  {
   
-  body{
+  html, body{
     width:100%;
     overflow-x:hidden;
-
+    background-size: cover;
+    background-attachment:fixed;
+    background-image: url(./phone.jpeg);
     }
-
-    .phonebackgroundimg{
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        background-image: url('./phone.jpeg');
-        background-size: cover;
-        background-position: 85% 50%;
-        background-repeat: no-repeat;
-        position: fixed;
-    }
-
-
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
     }
@@ -619,8 +605,8 @@ a:link, a:visited{
 }
 /* End of most of smartphone query*/
 
- /* Desktop query fix  */
- @media (min-width: 1200px) {
+/* Desktop query fix */
+@media (min-width: 1281px) {
   
   #contact_social{
     display: flex;
@@ -644,12 +630,13 @@ a:link, a:visited{
 
 }
 
- @media screen and (min-width: 370px) and (max-width: 820px)
-  and (-webkit-device-pixel-ratio : 3) and (-webkit-device-pixel-ratio: 4){
+@media screen and (min-width: 375px) and (max-width: 812px)
+  and (-webkit-device-pixel-ratio : 3){
   
-    body{
+    html, body{
       width:100%;
       overflow-x:hidden;
+      background-image: none;
       }
       
 .phonebackgroundimg{
