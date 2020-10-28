@@ -385,9 +385,7 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
   html, body{
     width:100%;
     overflow-x:hidden;
-    background-size: cover;
-    background-attachment:fixed;
-    background-image: url(./phone.jpeg);
+    background-image: none;
     }
     #backgroundimg{
       background-color: rgba(0, 0, 0, 0.6);
