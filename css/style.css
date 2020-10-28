@@ -638,7 +638,6 @@ a:link, a:visited{
       position:device-fixed;
       overflow-x:hidden;
       background-size: cover;
-      background-attachment:fixed;
       background-image: url(./phone.jpeg);
       }
 
