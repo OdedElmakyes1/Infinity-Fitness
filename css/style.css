@@ -402,8 +402,8 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
 
 }
 /* iPhone X, XS, 11 Pro iPhone XS Max, 11 Pro Max iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus */
-@media only screen and (min-width: 360px) and (max-width: 898px) and
-(-webkit-min-device-pixel-ratio: 3){
+@media only screen and (min-width: 345px) and (max-width: 897px) and
+(-webkit-min-device-pixel-ratio: 2){
   
   html, body{
     width:100%;
@@ -633,8 +633,8 @@ a:link, a:visited{
 
 
 /* iPhone 6, 6S, 7, 8 iPhone XR, 11 */
-@media only screen and (min-width: 320px) and (max-width: 897px)
-  and (-webkit-device-pixel-ratio : 2){
+@media only screen and (min-width: 345px) and (max-width: 897px)
+  and (-webkit-device-pixel-ratio : 3){
   
     html, body{
       width:100%;
@@ -865,7 +865,8 @@ color: black;
 }
 /* Galaxy Note 8, 9  */
 
-@media only screen and (min-width: 414px) and (max-width: 767px){
+@media only screen and (min-width: 345px) and (max-width: 897px)
+{
   
   html, body{
     width:100%;
@@ -1094,7 +1095,7 @@ color: black;
 
 
  /* Galaxy S8, S8+, S9, S9+, S10, S10+ Galaxy S6, S7, S7 Edge*/ 
-@media only screen and (min-width: 360px) and (max-width: 740px)
+@media only screen and (min-width: 345px) and (max-width: 897px)
   and (-webkit-device-pixel-ratio : 4){
     
     html, body{
