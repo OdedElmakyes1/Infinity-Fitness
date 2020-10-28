@@ -865,7 +865,7 @@ color: black;
 }
 
 /* Galaxy Note 8, 9 Galaxy S8, S8+, S9, S9+, S10, S10+ Galaxy S6, S7, S7 Edge*/
-@media only screen and (min-width: 358px) and (max-width: 742px)
+@media only screen and (min-width: 360px) and (max-width: 740px)
   and (-webkit-device-pixel-ratio : 4){
     
     html, body{
