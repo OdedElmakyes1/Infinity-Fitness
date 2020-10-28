@@ -635,6 +635,7 @@ a:link, a:visited{
   
     html, body{
       width:100%;
+      position:device-fixed;
       overflow-x:hidden;
       background-size: cover;
       background-attachment:fixed;
