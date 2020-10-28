@@ -631,13 +631,14 @@ a:link, a:visited{
 }
 
 @media screen and (min-width: 375px) and (max-width: 812px)
-  and (-webkit-device-pixel-ratio : 3)and (-webkit-overflow-scrolling:touch){
+  and (-webkit-device-pixel-ratio : 3){
   
     html, body{
       width:100%;
       background-attachment: fixed;
       background-size: cover;
-      overflow-x:scroll;
+      overflow-x:hidden;
+      -webkit-overflow-scrolling:touch;
       background-image: url(./phone.jpeg);
       }
 
