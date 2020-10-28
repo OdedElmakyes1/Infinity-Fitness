@@ -867,7 +867,7 @@ color: black;
 @media only screen
   and (min-device-width: 410px)
   and (max-device-height: 850px)
-  and (-webkit-device-pixel-ratio : 2)
+
   {
 
     html, body{
