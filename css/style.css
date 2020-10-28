@@ -635,7 +635,8 @@ a:link, a:visited{
   
     html, body{
       width:100%;
-      position:device-fixed;
+      background-attachment: fixed;
+      background-size: cover;
       overflow-x:hidden;
       background-image: url(./phone.jpeg);
       }
