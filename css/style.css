@@ -402,7 +402,7 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
 
 }
 /* iPhone X, XS, 11 Pro iPhone XS Max, 11 Pro Max iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus */
-@media only screen and (min-width: 372px) and (max-width: 898px) and
+@media only screen and (min-width: 360px) and (max-width: 898px) and
 (-webkit-min-device-pixel-ratio: 3){
   
   html, body{
@@ -633,7 +633,7 @@ a:link, a:visited{
 
 
 /* iPhone 6, 6S, 7, 8 iPhone XR, 11 */
-@media only screen and (min-width: 371px) and (max-width: 897px)
+@media only screen and (min-width: 320px) and (max-width: 897px)
   and (-webkit-device-pixel-ratio : 2){
   
     html, body{
