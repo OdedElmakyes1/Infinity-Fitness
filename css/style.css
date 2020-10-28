@@ -865,8 +865,8 @@ color: black;
 }
 /* Galaxy Note 8, 9  */
 @media only screen
-  and (min-device-width: 360px)
-  and (max-device-height: 780px)
+  and (min-device-width: 410px)
+  and (max-device-height: 850px)
   and (-webkit-device-pixel-ratio : 2)
   {
 
