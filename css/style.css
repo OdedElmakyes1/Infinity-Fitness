@@ -635,11 +635,8 @@ a:link, a:visited{
   
     html, body{
       width:100%;
-      background-attachment: fixed;
-      background-size: cover;
       overflow-x:hidden;
-      -webkit-overflow-scrolling:touch;
-      background-image: url(./phone.jpeg);
+      background-image: none;
       }
 
 .popup_img{
