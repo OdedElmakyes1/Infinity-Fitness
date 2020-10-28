@@ -385,7 +385,7 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
 @media screen and (min-width: 375px) and (max-width: 667px)
  {
   
-  html, body{
+  body{
     width:100%;
     overflow-x:hidden;
 
@@ -399,6 +399,7 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
         background-size: cover;
         background-position: 85% 50%;
         background-repeat: no-repeat;
+        position: fixed;
     }
 
 
