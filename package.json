@@ -1,0 +1,13 @@
+{
+  "homepage": "http://OdedElmakyes1.github.io/Infinity-Fitness",
+
+  "scripts": {
+    "deploy":"npm run build&&gh-pages -d build"
+  },
+
+
+
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
