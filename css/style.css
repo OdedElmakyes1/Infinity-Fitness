@@ -379,7 +379,10 @@ h1 { margin:150px auto 30px auto; text-align:center; color:#fff;}
 }
 /* Desktop query fix */
 @media (min-width: 1200px) {
-  
+  .all_info{
+    margin-left: 125px;
+    margin-right: 125px;
+  }
   #contact_social{
     display: flex;
     text-align: center;
